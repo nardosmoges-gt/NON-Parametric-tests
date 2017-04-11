@@ -7,9 +7,9 @@ yy=sort(c(37,39,30,7,13.01,139,45,25,16.01,146,94,16,23,1,290,169,62,145,36,20,1
 wilcox.test(yy,xx, exact=T, alternative = "g")
 
 
-##Asymptotic Mann-Whitney-Wilcoxon test with  no continuity correction #######################
+########## Asymptotic Mann-Whitney-Wilcoxon test with  no continuity correction #####################
 wilcox.test(yy,xx,exact=F, alternative = "g", correct = F)
 
 
-####### Asymptotic Mann-Whitney-Wilcoxon test with continuity correction ###########################
+####### Asymptotic Mann-Whitney-Wilcoxon test with continuity correction #########################
 wilcox.test(yy,xx,exact=F, alternative = "g", correct = T)
